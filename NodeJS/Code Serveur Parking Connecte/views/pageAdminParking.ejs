@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+    <% include inc/head %>
+</head>
+
+<body>
+	<% include inc/header %>
+
+	<h1>Vous êtes administrateur de <%- data.nom %>  </h1>
+
+	
+
+
+
+	<div id="buttonChangePWD">
+		<button onclick="openClose('changePWD','buttonChangePWD')"> Changer Mot de Passe</button>
+	</div>
+	<div id="changePWD" class="divPageAdmin" style="display: none">
+    	<% if (locals.data) { %>
+		   <form action="/changerMDP" method="post">
+		   		<input name="oldPassword"  type = "password" required placeholder = "Ancien Mot de Passe"> <br/>
+		    	<input name="newPassword"  type = "password" required placeholder = "Nouveau Mot de Passe"> <br/>
+		    	<input name="newPasswordBis"  type = "password" required placeholder = "Confirmer Nouveau Mot de Passe"> <br/>
+		    	<input type = "hidden" name="idParking"  id="idParking" value=<%- data.id %>  > 
+		    	<input type = "hidden" name="info"  id="info" value=<%- data %>  >
+				<button type="submit"> Confirmer Changer Mot de Passe</button>
+			</form>
+		<% } %>
+    </div>
+
+    <div id="buttonGererPlaces">
+		<button onclick="openClose('gererPlaces','buttonGererPlaces');"> Gérer Places</button>
+	</div>
+	<div id="gererPlaces" style="display: none" class="divPageAdmin">
+    	<% if (locals.data) { %>
+		   <form action="/ajouterPlaces" method="post">
+		   		<div id="inputPlaces">
+		   			<!--<input name="place_0"  type = "text" value=""> <br/>-->
+		   		</div>
+		   		<input type = "hidden" name="idParking"  id="idParking" value=<%- data.id %>  > 
+		   		<!--<button type="button" onclick='addPlaceInput()'> Ajouter une autre place</button>-->
+				<button type="submit"> Sauvegarder ces places</button>
+			</form>
+		<% } %>
+
+
+		<div id="map" style="width: 60%; height: 400px; margin-left: auto; margin-right: auto;"></div>
+    </div>
+    <div id="supprimerPlaces" style="display: none" class="divPageAdmin">
+    	<% if (locals.data) { %>
+		   <form action="/enleverPlaces" method="post">
+		   		<div id="inputSupprimerPlaces">
+		   			<!--<input name="place_0"  type = "text" value=""> <br/>-->
+		   		</div>
+		   		<input type = "hidden" name="idParking"  id="idParking" value=<%- data.id %>  > 
+				<button type="submit"> Enlever ces places</button>
+			</form>
+		<% } %>
+    </div>
+
+    <div id="buttonGererUtilisateurs">
+		<button onclick="openClose('gererUtilisateurs','buttonGererUtilisateurs');"> Gérer Utilisateur</button>
+	</div>
+    <div id="gererUtilisateurs" style="display: none" class="divPageAdmin">
+    	<% if (locals.data) { %>
+    		<div>
+				<% for (var i = 0; i < data.utilisateurs.length; i++) { %>
+					<div>
+						<input type = "button" onclick=" addSupprimerUtilisateur('<%- data.utilisateurs[i].utilisateur_id %>', '<%- data.utilisateurs[i].nom %>');"  value="<%- data.utilisateurs[i].nom %>"> 
+						
+					</div>
+				<% } %>
+			</div>
+    		<form action="/enleverUtilisateurs" method="post">
+		   		<div id="inputEnleverUtilisateurs">
+		   		</div>
+		   		<input type = "hidden" name="idParking"  id="idParking" value=<%- data.id %>  > 
+				<button type="submit"> Sauvegarder changement</button>
+			</form>
+			
+
+		   <form action="/ajouterUtilisateurs" method="post">
+		   		<div id="inputAjouterUtilisateurs">
+		   			<input name="utilisateurs_0" type = "text" value="" placeholder="Id Utilisateur">
+		   			<input name="utilisateurs_0" type = "text" value="" placeholder="Numero Badges">
+		   			<input name="utilisateurs_0" type = "text" value="" placeholder="Id Nom"> <br/>
+		   			<!--<input name="place_0"  type = "text" value=""> <br/>-->
+		   		</div>
+		   		<input type = "hidden" name="idParking"  id="idParking" value=<%- data.id %>  > 
+				<button type="submit"> Sauvegarder ces utilisateurs</button>
+ 				<input type="button" onclick="addUtilisateurInput()" value="Ajouter un nouveau champ"> 
+			</form>
+		<% } %>
+    </div>
+    <div id="">
+    	<% for (var i = 0; i < data.portails.length; i++) { %>
+			<div>
+				Portail <%- data.portails[i] %> :
+				<button onclick="ouvrirPortail('<%- data.portails[i] %>');"> Ouvrir portail </button>
+				Etat : <span id='position_idportail=<%- data.portails[i] %>'> fermé <span>
+			</div>
+		<% } %>
+	</div>
+    <script>
+    	function openClose(elementOne, elementSecond) {
+    		document.getElementById(elementOne).style.display = "block";
+    		document.getElementById(elementSecond).style.display = "none";
+    		initMap();
+		}
+
+		var nbPlaces=0;
+		function addPlaceInput(lat, long){
+			document.getElementById("inputPlaces").innerHTML += '<input name="place_' + nbPlaces+'"_lat type = "text" value="'+lat+'" readonly>';
+			document.getElementById("inputPlaces").innerHTML += '<input name="place_' + nbPlaces+'"_long type = "text" value="'+long+'" readonly>  <br/>';
+			nbPlaces+=1;
+		}
+
+		function addSupprimerPlace(idPlace){
+			document.getElementById("supprimerPlaces").style.display = "block";
+			document.getElementById("inputSupprimerPlaces").innerHTML += '<input name="place_' + idPlace+'" type = "text" value="'+idPlace+'" readonly>  <br/>';
+		}
+
+		var nbUtilisateurs=1;
+		function addUtilisateurInput(){
+			document.getElementById("inputAjouterUtilisateurs").innerHTML += '<input name="utilisateurs_' + nbUtilisateurs+'" type = "text" value="" placeholder="Id Utilisateur">';
+			document.getElementById("inputAjouterUtilisateurs").innerHTML += '<input name="utilisateurs_' + nbUtilisateurs+'" type = "text" value=""  placeholder="Numero Badges"> ';
+			document.getElementById("inputAjouterUtilisateurs").innerHTML += '<input name="utilisateurs_' + nbUtilisateurs+'" type = "text" value="" placeholder="Id Nom">   <br/>';
+			nbUtilisateurs+=1;
+		}
+
+		function addSupprimerUtilisateur(idUtilisateur, nom){
+			document.getElementById("inputEnleverUtilisateurs").innerHTML += '<input name="utilisateurs_' + idUtilisateur+'" type = "text" value="'+idUtilisateur+'" readonly>  <br/>';
+		}
+
+
+    </script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+	<script type="text/javascript">
+		function initMap() {
+			var latlng = new google.maps.LatLng(<%- data.coord[0] %>, <%- data.coord[1] %>);
+			var Options = {
+			    zoom      : 19,
+				center    : latlng,
+				mapTypeId: google.maps.MapTypeId.SATELLITE  
+			}
+	    	var map = new google.maps.Map(document.getElementById("map"), Options);
+
+	    	
+	    	initPlaces(map);
+	    	map.setTilt(0);
+	    	google.maps.event.addDomListener(window, 'load', initMap);
+	    	
+	    	google.maps.event.addListener(map, "click", function (event) {
+			    var latitude = event.latLng.lat();
+			    var longitude = event.latLng.lng();
+			    addPlaceInput(latitude,longitude);
+			    var iconLibre = {
+				    url: "public/images/placeLibre.png", // url
+				    scaledSize: new google.maps.Size(16, 16), // scaled size
+				    origin: new google.maps.Point(0,0), // origin
+				    anchor: new google.maps.Point(8, 8) // anchor
+				};
+			    var beachMarker = new google.maps.Marker({
+		          position: {lat: latitude, lng: longitude},
+		          map: map,
+		          icon: iconLibre
+		        });
+			});
+	    	
+		}		
+
+		function initPlaces(map){
+			var iconLibre = {
+			    url: "public/images/placeLibre.png", // url
+			    scaledSize: new google.maps.Size(16, 16), // scaled size
+			    origin: new google.maps.Point(0,0), // origin
+			    anchor: new google.maps.Point(8, 8) // anchor
+			};
+			var iconOccupee = {
+			    url: "public/images/placeOccupee.png", // url
+			    scaledSize: new google.maps.Size(16, 16), // scaled size
+			    origin: new google.maps.Point(0,0), // origin
+			    anchor: new google.maps.Point(8, 8) // anchor
+			};
+			<% for (var prop in data.places) {
+				if (Object.prototype.hasOwnProperty.call(data.places, prop)) { %>
+					if (<%-data.places[prop].disponibilite%>==true){
+						var marker = new google.maps.Marker({
+				          position: {lat: <%- data.places[prop].coord[0] %>, lng: <%- data.places[prop].coord[1] %>},
+				          map: map,
+				          icon: iconLibre
+				        });
+					}else{
+						var marker = new google.maps.Marker({
+				          position: {lat: <%- data.places[prop].coord[0] %>, lng: <%- data.places[prop].coord[1] %>},
+				          map: map,
+				          icon: iconOccupee
+				        });
+					}
+					google.maps.event.addListener(marker,'click',function() {
+						addSupprimerPlace(<%- data.places[prop].place_id %>);
+					});
+									
+			    <%   }
+		    } %>
+		}
+	</script> <!-- Changer la key si vous voulez réutilisez google map-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAlKxfiKLvbnl1KoqiV7Q0cStNDGJT7zU&callback=initMap"
+async defer>
+    </script>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+	<script>
+		
+		var socket = io.connect();
+
+		function ouvrirPortail(actualPortail){
+			socket.emit('op', { idPortail: actualPortail, idControleur:'<%- data.idControleur %>' });
+			//alert("<%- data.id %>"+<%- data.id %>);
+    	}
+		jQuery(function($){
+			socket.on('changementEPidControleur=<%- data.idControleur %>', function(data){
+				//alert(""+data.idPortail)	;
+				if (document.getElementById("position_"+data.idPortail)!=null){
+					if (data.position==0){
+						document.getElementById("position_"+data.idPortail).innerHTML = "fermé";
+					}else if (data.position==1){
+						document.getElementById("position_"+data.idPortail).innerHTML = "ouvert";
+					}else if (data.position==2){
+						document.getElementById("position_"+data.idPortail).innerHTML = "ouverture";
+					}else if (data.position==3){
+						document.getElementById("position_"+data.idPortail).innerHTML = "fermeture";
+					}
+					
+				}
+
+			});		
+		});
+
+	</script>
+</body>
+</html>

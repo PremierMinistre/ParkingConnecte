@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdtprojectproperties>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
+<language name="Assembly Source File">
+
+</language>
+<language name="C Source File">
+<includepath>D:\Enseignement\I3\2017_2018\Nordic\nRF51_SDK\components\drivers_nrf\common</includepath>
+<includepath>D:\Enseignement\I3\2017_2018\Nordic\nRF51_SDK\components\drivers_nrf\hal</includepath>
+<includepath>D:\Enseignement\I3\2017_2018\Nordic\nRF51_SDK\examples\bsp</includepath>
+<includepath>C:\Program Files (x86)\GNU Tools ARM Embedded\5.4 2016q3\lib\gcc\arm-none-eabi\5.4.1\include</includepath>
+<includepath>D:\Enseignement\I3\2017_2018\Nordic\nRF51_SDK\components\toolchain\gcc</includepath>
+
+</language>
+<language name="Object File">
+
+</language>
+</section>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.Macros">
+<language name="Assembly Source File">
+
+</language>
+<language name="C Source File">
+<macro>
+<name>NRF51</name><value>1</value>
+</macro>
+
+</language>
+<language name="Object File">
+
+</language>
+</section>
+</cdtprojectproperties>

@@ -1,0 +1,46 @@
+html {
+}
+
+body {
+}
+
+header {
+	position: relative;
+}
+
+
+.jumbotron {
+	background-color:#4897f7 ; 
+
+	color:white;
+	vertical-align: middle;
+
+	padding-top: 0px;
+    padding-bottom:0px;
+
+
+}
+
+.header-photo{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+
+}
+
+#header.container {
+	position: relative;
+
+}
+
+.divPageAdmin {
+	border-style: dashed;
+	border-color: #31d1ea;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    padding: 10%;
+
+}

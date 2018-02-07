@@ -1,0 +1,31 @@
+<header>
+	<div class="jumbotron">
+    		
+    	<div id="header" class="container"> 
+    		
+	        <div class="row">
+	            <div class="col-md-4 col-sm-4 col-xs-4"> 
+	            	
+	            		<div class="header-photo">  
+	                		<img src='public/images/logo2.png' class='img-responsive'>
+	                	</div>
+	                
+	            </div>
+	           <div class="col-md-8 col-sm-8 col-xs-8">
+	                <h1> Parking Connecté </h1>
+	            </div>
+	        </div>
+	        <div class="password" style="color:black;">
+	        	<% if (locals.data.nom) { %>
+				   <form action="/signup" method="post">
+				    	<input name="password"  type = "password" required placeholder = "Password">
+				    	<input type = "hidden" name="idParking"  id="idParking" value=<%- data.id %>  >
+						<button type="submit"> Me connecter Admin</button>
+					</form>
+				<% } %>
+
+	        </div>
+	     </div> 
+      	
+	</div>
+</header>

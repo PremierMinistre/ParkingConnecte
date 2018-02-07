@@ -1,0 +1,24 @@
+/* Linker script to configure memory regions. */
+
+SEARCH_DIR(.)
+GROUP(-lgcc -lc -lnosys)
+
+MEMORY
+{
+  FLASH (rx) : ORIGIN = 0x0, LENGTH = 0x40000
+/*  RAM (rwx) :  ORIGIN = 0x20002000, LENGTH = 0x6000   */       /* for ac */
+  RAM (rwx) :  ORIGIN = 0x20000000, LENGTH = 0x4000       /* for aa */
+}
+
+SECTIONS
+{
+  .fs_data :
+  {
+    PROVIDE(__start_fs_data = .);
+    KEEP(*(.fs_data))
+    PROVIDE(__stop_fs_data = .);
+  } > RAM
+} INSERT AFTER .data;
+
+/*INCLUDE "nrf5x_common.ld"*/
+INCLUDE "gcc_nrf51_common.ld"

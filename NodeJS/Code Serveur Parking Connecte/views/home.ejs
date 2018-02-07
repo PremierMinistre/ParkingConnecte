@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+    <% include inc/head %>
+</head>
+
+<body>
+
+	<% include inc/header %>
+	
+	<!--<h1>Home Parking connecté dans /views</h1>
+	<p>Vous êtes connecté à l'addresse :</p>
+	<p> <%= lien %> </p>-->
+	<div class="col-md-12 col-sm-12 col-xs-12" style="height: 20%;">
+		<legend>Trouver mon Parking</legend>
+	<input style="width: 10%; width:150px;" type="text"  name="idparkingtext" id="idparkingtext" list="idparkinglist" onkeypress="changeList()"  onkeyup="changeList()" secondvalue="">
+	<select style="width: 10%; width:150px;" id="idparkinglist" onchange="changeInput()">
+		<option data-option="" value="">Sélectionner Parking</option>
+		<% for (var i = 0; i < data.idParkings.length; i++) { %>
+			<option data-option="<%= data.idParkings[i].nom %>" value="<%= data.idParkings[i].id %>"> <%= data.idParkings[i].nom %> </option>
+		<% } %>
+	</select>
+	<button id="buttongoto" onclick="goto()" style="display:none; background-color: #008CBA; border: none; color: white;" /> Go</button>
+	<hr>
+	</div>
+
+	<div id="map" class="col-md-12 col-sm-12 col-xs-12" style="width: 100%;  height: 470px; margin-left: auto; margin-right: auto;"></div>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+	<script type="text/javascript">
+		function initMap() {
+			var latlng = new google.maps.LatLng(<%- data.idParkings[0].coord[0] %>, <%- data.idParkings[0].coord[1] %>);
+			var Options = {
+			    zoom      : 18,
+				center    : latlng,
+				mapTypeId: google.maps.MapTypeId.SATELLITE  
+			}
+	    	var map = new google.maps.Map(document.getElementById("map"), Options);
+
+	    	
+	    	initIcon(map);
+	    	map.setTilt(0);
+	    	google.maps.event.addDomListener(window, 'load', initMap);
+		}	
+
+		function initIcon(map){
+			var iconParking = {
+			    url: "public/images/icon.png", // url
+			    scaledSize: new google.maps.Size(64, 64), // scaled size
+			    origin: new google.maps.Point(0,0), // origin
+			    anchor: new google.maps.Point(32, 64), // anchor
+			    labelOrigin: new google.maps.Point(30,30)
+			};
+			<% for (var prop in data.idParkings) {
+				if (Object.prototype.hasOwnProperty.call(data.idParkings, prop)) { %>
+					var marker = new google.maps.Marker({
+			          position: {lat: <%- data.idParkings[prop].coord[0] %>, lng: <%- data.idParkings[prop].coord[1] %>},
+			          map: map,
+			          icon: iconParking,
+			          label: {
+					    text: '<%- data.idParkings[prop].places %>',
+					    color: "#ffffff",
+					    fontSize: "16px",
+					    fontWeight: "bold"
+					  },
+			          title: '<%- data.idParkings[prop].nom %>',
+			          valeur: '<%- data.idParkings[prop].id %>'
+			        });
+					google.maps.event.addListener(marker,'click',function() {
+						document.getElementById('idparkingtext').value = '<%- data.idParkings[prop].nom %>';
+						document.getElementById('idparkingtext').secondvalue = '<%- data.idParkings[prop].id %>';
+						document.getElementById('buttongoto').style.display = "inline-block";
+					});
+			        
+					
+					
+			    <%   }
+		    } %>
+		}	
+	</script>	
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAlKxfiKLvbnl1KoqiV7Q0cStNDGJT7zU&callback=initMap"
+			async defer>
+    </script>
+
+	<script>
+		var parkinglist = document.querySelector('#idparkinglist');
+		var options2 = parkinglist.querySelectorAll('option');
+		
+		function changeList() {
+			parkinglist = document.querySelector('#idparkinglist');
+			valueinput=document.getElementById('idparkingtext').value;
+			parkinglist.innerHTML = '';
+			parkinglist.appendChild(options2[0]);
+			for (var i = 1; i < options2.length; i++) {
+				if ((options2[i].dataset.option.toLowerCase().indexOf(valueinput.toLowerCase()) !== -1)||(valueinput=='')){
+					parkinglist.appendChild(options2[i]);
+				}
+			}
+			document.getElementById('buttongoto').style.display = "none";
+		}
+
+		function changeInput(){
+			var e = document.getElementById('idparkinglist');
+			if (e.value!=""){
+				document.getElementById('idparkingtext').value = e.options[e.selectedIndex].innerHTML;
+				document.getElementById('idparkingtext').secondvalue = e.options[e.selectedIndex].value;
+				document.getElementById('buttongoto').style.display = "inline-block";
+			}else{
+				document.getElementById('buttongoto').style.display = "none";
+			}
+		}
+
+
+		function goto(){
+			var input = document.getElementById('idparkingtext');
+			location.href = '<%= lien %>?idParking='+input.secondvalue;
+		}
+
+
+
+	</script>
+
+</body>
+</html>

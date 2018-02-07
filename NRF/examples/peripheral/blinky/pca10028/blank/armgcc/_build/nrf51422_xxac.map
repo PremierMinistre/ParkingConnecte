@@ -1,0 +1,523 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-exit.o)
+                              c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o (exit)
+c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-impure.o)
+                              c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-init.o)
+                              c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o (__libc_init_array)
+c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memset.o)
+                              c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o (memset)
+c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
+                              c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-exit.o) (_exit)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
+ .text          0x00000000       0x60 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+ .data          0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+ .bss           0x00000000       0x1c c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+ .init_array    0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+ .fini_array    0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+ .eh_frame      0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+ .jcr           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/system_nrf51.o
+ .text          0x00000000        0x0 _build/system_nrf51.o
+ .data          0x00000000        0x0 _build/system_nrf51.o
+ .bss           0x00000000        0x0 _build/system_nrf51.o
+ .data.SystemCoreClock
+                0x00000000        0x4 _build/system_nrf51.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0x18 _build/system_nrf51.o
+ .group         0x00000000        0x8 _build/main.o
+ .group         0x00000000        0x8 _build/main.o
+ .group         0x00000000        0x8 _build/main.o
+ .group         0x00000000        0x8 _build/main.o
+ .group         0x00000000        0x8 _build/main.o
+ .group         0x00000000        0x8 _build/main.o
+ .group         0x00000000        0x8 _build/main.o
+ .group         0x00000000        0x8 _build/main.o
+ .group         0x00000000        0x8 _build/main.o
+ .group         0x00000000        0x8 _build/main.o
+ .group         0x00000000        0x8 _build/main.o
+ .group         0x00000000        0x8 _build/main.o
+ .group         0x00000000        0x8 _build/main.o
+ .group         0x00000000        0x8 _build/main.o
+ .group         0x00000000        0x8 _build/main.o
+ .group         0x00000000        0x8 _build/main.o
+ .group         0x00000000        0x8 _build/main.o
+ .group         0x00000000        0x8 _build/main.o
+ .text          0x00000000        0x0 _build/main.o
+ .data          0x00000000        0x0 _build/main.o
+ .bss           0x00000000        0x0 _build/main.o
+ .rodata.leds_list
+                0x00000000        0x4 _build/main.o
+ .debug_macro   0x00000000      0x8a4 _build/main.o
+ .debug_macro   0x00000000       0x22 _build/main.o
+ .debug_macro   0x00000000       0x22 _build/main.o
+ .debug_macro   0x00000000       0x87 _build/main.o
+ .debug_macro   0x00000000       0x51 _build/main.o
+ .debug_macro   0x00000000       0xef _build/main.o
+ .debug_macro   0x00000000       0x6a _build/main.o
+ .debug_macro   0x00000000      0x1df _build/main.o
+ .debug_macro   0x00000000       0x22 _build/main.o
+ .debug_macro   0x00000000       0x3a _build/main.o
+ .debug_macro   0x00000000       0x1f _build/main.o
+ .debug_macro   0x00000000      0x242 _build/main.o
+ .debug_macro   0x00000000      0x1e0 _build/main.o
+ .debug_macro   0x00000000     0x776a _build/main.o
+ .debug_macro   0x00000000      0x976 _build/main.o
+ .debug_macro   0x00000000       0x1c _build/main.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .group         0x00000000        0x8 _build/nrf_delay.o
+ .text          0x00000000        0x0 _build/nrf_delay.o
+ .data          0x00000000        0x0 _build/nrf_delay.o
+ .bss           0x00000000        0x0 _build/nrf_delay.o
+ .debug_macro   0x00000000      0x8a4 _build/nrf_delay.o
+ .debug_macro   0x00000000       0x22 _build/nrf_delay.o
+ .debug_macro   0x00000000       0x6a _build/nrf_delay.o
+ .debug_macro   0x00000000       0x22 _build/nrf_delay.o
+ .debug_macro   0x00000000       0x3a _build/nrf_delay.o
+ .debug_macro   0x00000000       0xef _build/nrf_delay.o
+ .debug_macro   0x00000000      0x1df _build/nrf_delay.o
+ .debug_macro   0x00000000       0x1f _build/nrf_delay.o
+ .debug_macro   0x00000000      0x242 _build/nrf_delay.o
+ .debug_macro   0x00000000      0x1e0 _build/nrf_delay.o
+ .debug_macro   0x00000000     0x776a _build/nrf_delay.o
+ .debug_macro   0x00000000      0x976 _build/nrf_delay.o
+ .data          0x00000000        0x0 _build/gcc_startup_nrf51.o
+ .bss           0x00000000        0x0 _build/gcc_startup_nrf51.o
+ .ARM.extab     0x00000000        0x0 _build/gcc_startup_nrf51.o
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtend.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtend.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtend.o
+ .eh_frame      0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtend.o
+ .jcr           0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtend.o
+ .ARM.attributes
+                0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtend.o
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x00000000         0x00040000         xr
+RAM              0x20000000         0x00004000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+
+.text           0x00000000      0x508
+ *(.Vectors)
+ .Vectors       0x00000000       0xc0 _build/gcc_startup_nrf51.o
+                0x00000000                __Vectors
+ *(.text*)
+ .text          0x000000c0       0x78 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+                0x000000c0                _start
+                0x000000c0                _mainCRTStartup
+ .text.exit     0x00000138       0x2c c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-exit.o)
+                0x00000138                exit
+ .text.__libc_init_array
+                0x00000164       0x48 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-init.o)
+                0x00000164                __libc_init_array
+ .text.memset   0x000001ac       0x10 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memset.o)
+                0x000001ac                memset
+ .text._exit    0x000001bc        0x4 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
+                0x000001bc                _exit
+ .text.SystemInit
+                0x000001c0       0x40 _build/system_nrf51.o
+                0x000001c0                SystemInit
+ .text.is_manual_peripheral_setup_needed
+                0x00000200       0x80 _build/system_nrf51.o
+ .text.is_disabled_in_debug_needed
+                0x00000280       0x4c _build/system_nrf51.o
+ .text.nrf_gpio_cfg_output
+                0x000002cc       0x20 _build/main.o
+ .text.nrf_gpio_cfg_input
+                0x000002ec       0x2c _build/main.o
+ .text.nrf_gpio_pin_dir_set
+                0x00000318       0x40 _build/main.o
+ .text.nrf_gpio_pin_set
+                0x00000358       0x20 _build/main.o
+ .text.nrf_gpio_pin_clear
+                0x00000378       0x24 _build/main.o
+ .text.nrf_gpio_pin_read
+                0x0000039c       0x24 _build/main.o
+ .text.main     0x000003c0       0x90 _build/main.o
+                0x000003c0                main
+ .text.nrf_delay_ms
+                0x00000450       0x48 _build/nrf_delay.o
+                0x00000450                nrf_delay_ms
+ .text          0x00000498       0x54 _build/gcc_startup_nrf51.o
+                0x00000498                Reset_Handler
+                0x000004e0                NMI_Handler
+                0x000004e2                HardFault_Handler
+                0x000004e4                SVC_Handler
+                0x000004e6                PendSV_Handler
+                0x000004e8                SysTick_Handler
+                0x000004ea                GPIOTE_IRQHandler
+                0x000004ea                RTC0_IRQHandler
+                0x000004ea                POWER_CLOCK_IRQHandler
+                0x000004ea                SPI0_TWI0_IRQHandler
+                0x000004ea                LPCOMP_IRQHandler
+                0x000004ea                SWI4_IRQHandler
+                0x000004ea                TEMP_IRQHandler
+                0x000004ea                QDEC_IRQHandler
+                0x000004ea                UART0_IRQHandler
+                0x000004ea                SWI5_IRQHandler
+                0x000004ea                TIMER0_IRQHandler
+                0x000004ea                RADIO_IRQHandler
+                0x000004ea                SWI0_IRQHandler
+                0x000004ea                TIMER1_IRQHandler
+                0x000004ea                ECB_IRQHandler
+                0x000004ea                Default_Handler
+                0x000004ea                ADC_IRQHandler
+                0x000004ea                SWI3_IRQHandler
+                0x000004ea                CCM_AAR_IRQHandler
+                0x000004ea                WDT_IRQHandler
+                0x000004ea                TIMER2_IRQHandler
+                0x000004ea                SWI2_IRQHandler
+                0x000004ea                RNG_IRQHandler
+                0x000004ea                SPI1_TWI1_IRQHandler
+                0x000004ea                RTC1_IRQHandler
+                0x000004ea                SWI1_IRQHandler
+ *(.init)
+ .init          0x000004ec        0x4 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
+                0x000004ec                _init
+ .init          0x000004f0        0x8 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
+ *(.fini)
+ .fini          0x000004f8        0x4 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
+                0x000004f8                _fini
+ .fini          0x000004fc        0x8 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata._global_impure_ptr
+                0x00000504        0x4 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-impure.o)
+                0x00000504                _global_impure_ptr
+ *(.eh_frame*)
+                0x00000508                . = ALIGN (0x4)
+
+.glue_7         0x00000508        0x0
+ .glue_7        0x00000508        0x0 linker stubs
+
+.glue_7t        0x00000508        0x0
+ .glue_7t       0x00000508        0x0 linker stubs
+
+.vfp11_veneer   0x00000508        0x0
+ .vfp11_veneer  0x00000508        0x0 linker stubs
+
+.v4_bx          0x00000508        0x0
+ .v4_bx         0x00000508        0x0 linker stubs
+
+.iplt           0x00000508        0x0
+ .iplt          0x00000508        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+
+.ARM.extab      0x00000508        0x0
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00000508                . = ALIGN (0x4)
+                0x00000508                __exidx_start = .
+
+.ARM.exidx      0x00000508        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x00000508        0x8 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+ .ARM.exidx     0x00000510        0x0 _build/gcc_startup_nrf51.o
+                                  0x8 (size before relaxing)
+                0x00000510                . = ALIGN (0x4)
+                0x00000510                __exidx_end = .
+                0x00000510                __etext = .
+
+.rel.dyn        0x00000510        0x0
+ .rel.iplt      0x00000510        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+
+.data           0x20000000       0x60 load address 0x00000510
+                0x20000000                __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data.impure_data
+                0x20000000       0x60 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-impure.o)
+                0x20000060                . = ALIGN (0x4)
+                0x20000060                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x20000060                PROVIDE (__preinit_array_end, .)
+                0x20000060                . = ALIGN (0x4)
+                0x20000060                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x20000060                PROVIDE (__init_array_end, .)
+                0x20000060                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+                [!provide]                PROVIDE (__fini_array_end, .)
+ *(.jcr)
+                0x20000060                . = ALIGN (0x4)
+                0x20000060                __data_end__ = .
+LOAD c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
+LOAD c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+LOAD c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+LOAD c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a
+LOAD c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a
+LOAD _build/system_nrf51.o
+LOAD _build/main.o
+LOAD _build/nrf_delay.o
+LOAD _build/gcc_startup_nrf51.o
+LOAD c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libm.a
+START GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a
+END GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtend.o
+LOAD c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
+START GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a
+END GROUP
+
+.igot.plt       0x20000060        0x0 load address 0x00000570
+ .igot.plt      0x20000060        0x0 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+
+.fs_data        0x20000060        0x0
+                [!provide]                PROVIDE (__start_fs_data, .)
+ *(.fs_data)
+                [!provide]                PROVIDE (__stop_fs_data, .)
+
+.bss            0x20000060        0x0
+                0x20000060                . = ALIGN (0x4)
+                0x20000060                __bss_start__ = .
+ *(.bss*)
+ *(COMMON)
+                0x20000060                . = ALIGN (0x4)
+                0x20000060                __bss_end__ = .
+
+.heap           0x20000060      0x800
+                0x20000060                __end__ = .
+                0x20000060                end = __end__
+ *(.heap*)
+ .heap          0x20000060      0x800 _build/gcc_startup_nrf51.o
+                0x20000060                __HeapBase
+                0x20000860                __HeapLimit = .
+
+.stack_dummy    0x20000060      0x800
+ *(.stack*)
+ .stack         0x20000060      0x800 _build/gcc_startup_nrf51.o
+                0x20004000                __StackTop = (ORIGIN (RAM) + LENGTH (RAM))
+                0x20003800                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                0x20004000                PROVIDE (__stack, __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
+OUTPUT(_build/nrf51422_xxac.out elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x28
+ .ARM.attributes
+                0x00000000       0x1e c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
+ .ARM.attributes
+                0x0000001e       0x1b c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+ .ARM.attributes
+                0x00000039       0x2c c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000065       0x2c c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000091       0x2c c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x000000bd       0x2c c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000000e9       0x2c c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
+ .ARM.attributes
+                0x00000115       0x31 _build/system_nrf51.o
+ .ARM.attributes
+                0x00000146       0x31 _build/main.o
+ .ARM.attributes
+                0x00000177       0x31 _build/nrf_delay.o
+ .ARM.attributes
+                0x000001a8       0x1b _build/gcc_startup_nrf51.o
+ .ARM.attributes
+                0x000001c3       0x1e c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
+
+.comment        0x00000000       0x7f
+ .comment       0x00000000       0x7f _build/system_nrf51.o
+                                 0x80 (size before relaxing)
+ .comment       0x0000007f       0x80 _build/main.o
+ .comment       0x0000007f       0x80 _build/nrf_delay.o
+
+.debug_frame    0x00000000      0x230
+ .debug_frame   0x00000000       0x28 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x00000028       0x2c c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-init.o)
+ .debug_frame   0x00000054       0x20 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x00000074       0x20 c:/program files (x86)/gnu tools arm embedded/6 2017-q2-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
+ .debug_frame   0x00000094       0x80 _build/system_nrf51.o
+ .debug_frame   0x00000114       0xec _build/main.o
+ .debug_frame   0x00000200       0x30 _build/nrf_delay.o
+
+.debug_info     0x00000000      0xe30
+ .debug_info    0x00000000      0x1b9 _build/system_nrf51.o
+ .debug_info    0x000001b9      0x34c _build/main.o
+ .debug_info    0x00000505      0x92b _build/nrf_delay.o
+
+.debug_abbrev   0x00000000      0x488
+ .debug_abbrev  0x00000000       0xff _build/system_nrf51.o
+ .debug_abbrev  0x000000ff      0x174 _build/main.o
+ .debug_abbrev  0x00000273      0x215 _build/nrf_delay.o
+
+.debug_aranges  0x00000000       0xa8
+ .debug_aranges
+                0x00000000       0x38 _build/system_nrf51.o
+ .debug_aranges
+                0x00000038       0x50 _build/main.o
+ .debug_aranges
+                0x00000088       0x20 _build/nrf_delay.o
+
+.debug_ranges   0x00000000       0x78
+ .debug_ranges  0x00000000       0x28 _build/system_nrf51.o
+ .debug_ranges  0x00000028       0x40 _build/main.o
+ .debug_ranges  0x00000068       0x10 _build/nrf_delay.o
+
+.debug_macro    0x00000000     0xa581
+ .debug_macro   0x00000000       0xd5 _build/system_nrf51.o
+ .debug_macro   0x000000d5      0x8a4 _build/system_nrf51.o
+ .debug_macro   0x00000979       0x22 _build/system_nrf51.o
+ .debug_macro   0x0000099b       0x87 _build/system_nrf51.o
+ .debug_macro   0x00000a22       0x51 _build/system_nrf51.o
+ .debug_macro   0x00000a73       0xef _build/system_nrf51.o
+ .debug_macro   0x00000b62       0x6a _build/system_nrf51.o
+ .debug_macro   0x00000bcc      0x1df _build/system_nrf51.o
+ .debug_macro   0x00000dab       0x22 _build/system_nrf51.o
+ .debug_macro   0x00000dcd       0x22 _build/system_nrf51.o
+ .debug_macro   0x00000def       0x3a _build/system_nrf51.o
+ .debug_macro   0x00000e29       0x1f _build/system_nrf51.o
+ .debug_macro   0x00000e48      0x242 _build/system_nrf51.o
+ .debug_macro   0x0000108a      0x1e0 _build/system_nrf51.o
+ .debug_macro   0x0000126a     0x776a _build/system_nrf51.o
+ .debug_macro   0x000089d4      0x976 _build/system_nrf51.o
+ .debug_macro   0x0000934a       0x1c _build/system_nrf51.o
+ .debug_macro   0x00009366      0x105 _build/main.o
+ .debug_macro   0x0000946b      0x1c0 _build/main.o
+ .debug_macro   0x0000962b       0x22 _build/main.o
+ .debug_macro   0x0000964d      0x218 _build/nrf_delay.o
+ .debug_macro   0x00009865       0x52 _build/nrf_delay.o
+ .debug_macro   0x000098b7       0x8d _build/nrf_delay.o
+ .debug_macro   0x00009944       0x35 _build/nrf_delay.o
+ .debug_macro   0x00009979       0x9c _build/nrf_delay.o
+ .debug_macro   0x00009a15       0x16 _build/nrf_delay.o
+ .debug_macro   0x00009a2b       0x57 _build/nrf_delay.o
+ .debug_macro   0x00009a82       0x97 _build/nrf_delay.o
+ .debug_macro   0x00009b19      0x353 _build/nrf_delay.o
+ .debug_macro   0x00009e6c       0xf6 _build/nrf_delay.o
+ .debug_macro   0x00009f62       0x10 _build/nrf_delay.o
+ .debug_macro   0x00009f72       0x58 _build/nrf_delay.o
+ .debug_macro   0x00009fca       0x1f _build/nrf_delay.o
+ .debug_macro   0x00009fe9       0x43 _build/nrf_delay.o
+ .debug_macro   0x0000a02c       0x20 _build/nrf_delay.o
+ .debug_macro   0x0000a04c      0x187 _build/nrf_delay.o
+ .debug_macro   0x0000a1d3       0x10 _build/nrf_delay.o
+ .debug_macro   0x0000a1e3       0x1c _build/nrf_delay.o
+ .debug_macro   0x0000a1ff       0x52 _build/nrf_delay.o
+ .debug_macro   0x0000a251       0x40 _build/nrf_delay.o
+ .debug_macro   0x0000a291       0x10 _build/nrf_delay.o
+ .debug_macro   0x0000a2a1       0x40 _build/nrf_delay.o
+ .debug_macro   0x0000a2e1       0xd7 _build/nrf_delay.o
+ .debug_macro   0x0000a3b8       0x16 _build/nrf_delay.o
+ .debug_macro   0x0000a3ce      0x18b _build/nrf_delay.o
+ .debug_macro   0x0000a559       0x28 _build/nrf_delay.o
+
+.debug_line     0x00000000      0xe4a
+ .debug_line    0x00000000      0x3f9 _build/system_nrf51.o
+ .debug_line    0x000003f9      0x50f _build/main.o
+ .debug_line    0x00000908      0x542 _build/nrf_delay.o
+
+.debug_str      0x00000000    0x34be9
+ .debug_str     0x00000000    0x2fff9 _build/system_nrf51.o
+                              0x30171 (size before relaxing)
+ .debug_str     0x0002fff9      0xa9f _build/main.o
+                              0x30b4e (size before relaxing)
+ .debug_str     0x00030a98     0x4151 _build/nrf_delay.o
+                              0x34218 (size before relaxing)
